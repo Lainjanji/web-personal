@@ -1,0 +1,66 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'poppins',sans-serif;
+}
+body{
+	background: -webkit-linear-gradient(bottom,#890,#769,#253,#971);
+}
+.kata{
+	width:100%;
+	height: 10px;
+	background: gray;
+	padding-bottom: 45px;
+}
+.kata h1{
+	text-align: center;
+	padding: 5px;
+}
+
+.galeri{
+	width: 85vw;
+	height: 60vmin;
+	display: flex;
+	gap: 5px;
+	margin-left: 80px;
+	padding-top: 15px;
+	padding-bottom: 30px;
+	
+	
+}
+.galeri img{
+	height: 100%;
+	flex: 1;
+	object-fit: cover;
+	overflow: hidden;
+	cursor: pointer;
+	border-radius: 10px;
+	transition: all 0.3s;
+}
+
+.galeri img:hover{
+	flex: 4;
+}
+
+.back{
+    
+    text-decoration: none;
+    color: blue;
+    border: 0px solid aqua;
+
+    font-size: 20px;
+    background: transparent;
+  
+    cursor: pointer;
+    
+   
+}
+
+.back a{
+    margin-left: 75px;
+}
+.back a:hover{
+    border: 0px solid #f44336;
+    background: gray;
+    transition: 3s;
+} 
